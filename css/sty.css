@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.food{
+    background-color: #273545;
+    width: 100%;
+    height: 1400px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    justify-content:space-around;
+    gap: 10px;  
+
+}
+.img-f1,
+.img-f2,
+.img-f3,
+.img-f4,
+.img-f5,
+.img-f6,
+.img-f7,
+.img-f8,
+.img-f9,
+.img-f10,
+.img-f11{
+    width: 250px;
+    height: 300px;
+    box-shadow: 0px 4px 10px 10px rgba(0, 0, 0, 0.185);
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-top: 120px;
+}
+.food-h1{
+    position: absolute;
+}
+.food-h1 h1{
+     color: #D35400;
+     font-size: 70px;
+     margin-top: 20px;
+     margin-left: 700px; 
+
+}
+.salary-row1{
+    position: absolute;
+    display: flex;
+    gap: 335px;
+    margin-left: 85px;
+    margin-top: 480px;
+}
+.salary-row1 p{
+      color:rgb(212, 212, 40);
+      font-size: 18px;
+}
+.salary-row2{
+    position: absolute;
+    display: flex;
+    gap: 335px;
+    margin-left: 85px;
+    margin-top: 910px;
+}
+.salary-row2 p{
+      color:rgb(212, 212, 40);
+      font-size: 18px;
+}
+.salary-row3{
+    position: absolute;
+    display: flex;
+    gap: 335px;
+    margin-left: 85px;
+    margin-top: 1340px;
+}
+.salary-row3 p{
+      color:rgb(212, 212, 40);
+      font-size: 18px;
+}
+.name-row1{
+    position: absolute;
+    display: flex;
+    gap: 255px;
+    margin-left: 85px;
+    margin-top: 440px;
+}
+.name-row1 p{
+      color:rgb(212, 212, 40);
+      font-size: 18px;
+}
+.name-row2{
+    position: absolute;
+    display: flex;
+    gap: 240px;
+    margin-left: 85px;
+    margin-top: 870px;
+}
+.name-row2 p{
+      color:rgb(212, 212, 40);
+      font-size: 18px;
+}
+.name-row3{
+    position: absolute;
+    display: flex;
+    gap: 260px;
+    margin-left: 85px;
+    margin-top: 1300px;
+}
+.name-row3 p{
+      color:rgb(212, 212, 40);
+      font-size: 18px;
+}
+.drink{
+    background-color: #34475e;
+    width: 100%;
+    height: 1450px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    justify-content:space-around;
+}
+.drink-h1{
+    position: absolute;
+}
+.drink-h1 h1{
+     color: #D35400;
+     font-size: 70px;
+     margin-top: 20px;
+     margin-left: 700px; 
+
+}
+.drink img{
+    width: 250px;
+    height: 300px;
+    box-shadow: 0px 4px 10px 10px rgba(0, 0, 0, 0.185);
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-top: 140px;
+}
+.drink .salary-row1{
+    position: absolute;
+    display: flex;
+    gap: 335px;
+    margin-left: 85px;
+    margin-top: 500px;
+}
+.drink .salary-row1 p{
+      color:rgb(212, 212, 40);
+      font-size: 18px;
+}
+.drink .salary-row2{
+    position: absolute;
+    display: flex;
+    gap: 335px;
+    margin-left: 85px;
+    margin-top: 950px;
+}
+.drink .salary-row2 p{
+      color:rgb(212, 212, 40);
+      font-size: 18px;
+}
+.drink .salary-row3{
+    position: absolute;
+    display: flex;
+    gap: 335px;
+    margin-left: 85px;
+    margin-top: 1380px;
+}
+.drink .salary-row3 p{
+      color:rgb(212, 212, 40);
+      font-size: 18px;
+}
+.drink .name-row1{
+    position: absolute;
+    display: flex;
+    gap: 268px;
+    margin-left: 85px;
+    margin-top: 460px;
+}
+.drink .name-row1 p{
+      color:rgb(212, 212, 40);
+      font-size: 18px;
+}
+.drink .name-row2{
+    position: absolute;
+    display: flex;
+    gap: 290px;
+    margin-left: 85px;
+    margin-top: 910px;
+}
+.drink .name-row2 p{
+      color:rgb(212, 212, 40);
+      font-size: 18px;
+}
+.drink .name-row3{
+    position: absolute;
+    display: flex;
+    gap: 260px;
+    margin-left: 85px;
+    margin-top: 1340px;
+}
+.drink .name-row3 p{
+      color:rgb(212, 212, 40);
+      font-size: 18px;
+}
+.desrts{
+    background-color: #273545;
+    width: 100%;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    justify-content:space-around;  
+
+}
+.desrts-h1{
+    position: absolute;
+}
+.desrts-h1 h1{
+     color: #D35400;
+     font-size: 70px;
+     margin-top: 20px;
+     margin-left: 700px; 
+}
+.desrts img{
+    width: 250px;
+    height: 300px;
+    box-shadow: 0px 4px 10px 10px rgba(0, 0, 0, 0.185);
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-top: 140px;
+}
+
+
+.desrts .salary-row1{
+    position: absolute;
+    display: flex;
+    gap: 335px;
+    margin-left: 85px;
+    margin-top: 500px;
+}
+.desrts  .salary-row1 p{
+      color:rgb(212, 212, 40);
+      font-size: 18px;
+}
+.desrts .salary-row2{
+    position: absolute;
+    display: flex;
+    gap: 335px;
+    margin-left: 85px;
+    margin-top: 950px;
+}
+.desrts .salary-row2 p{
+      color:rgb(212, 212, 40);
+      font-size: 18px;
+}
+
+.desrts  .name-row1{
+    position: absolute;
+    display: flex;
+    gap: 275px;
+    margin-left: 85px;
+    margin-top: 460px;
+}
+.desrts  .name-row1 p{
+      color:rgb(212, 212, 40);
+      font-size: 18px;
+}
+.desrts  .name-row2{
+    position: absolute;
+    display: flex;
+    gap: 290px;
+    margin-left: 85px;
+    margin-top: 910px;
+}
+.desrts .name-row2 p{
+      color:rgb(212, 212, 40);
+      font-size: 18px;
+}
+.footer-m{
+    width: 100%;
+    height: 150px;
+}
+.footer-m h1{
+    position: absolute;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 470px;
+    color: #D35400;
+}
+.footer-m-i{
+    display: flex;
+    gap: 25px;
+    margin-left: 650px;
+}
+.footer-m-i i{
+    margin-top: 100px;
+}
+
+
+
+
